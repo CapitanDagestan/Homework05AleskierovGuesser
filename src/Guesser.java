@@ -7,6 +7,7 @@ public class Guesser {
         Random random = new Random();
         int guess = random.nextInt(11);
         System.out.println("Вгадай число, яке я загадав! Діапазон 0-10");
+        System.out.println("В тебе є 3 спроби:");
         for (int i = 1; i < 4; i++){
             System.out.println("Спроба " + i);
             int player = scanner.nextInt();
